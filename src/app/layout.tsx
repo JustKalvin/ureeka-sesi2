@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { FloatingNav } from "../components/ui/floating-navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,6 +12,26 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+// 🔽 Pindahkan navItems ke bawah SEMUA deklarasi font dan import!
+const navItems = [
+  {
+    name: "Home",
+    link: "http://localhost:3000/"
+  },
+  {
+    name: "About",
+    link: "http://localhost:3000/pages/about/"
+  },
+  {
+    name: "Project",
+    link: "http://localhost:3000/pages/project/"
+  },
+  {
+    name: "Resume",
+    link: "http://localhost:3000/pages/resume/"
+  },
+];
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -27,6 +48,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <FloatingNav navItems={navItems} />
         {children}
       </body>
     </html>

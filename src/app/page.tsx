@@ -2,25 +2,28 @@
 import Spline from "@splinetool/react-spline";
 import { Card, CardTitle, CardDescription, HoverEffect } from "../components/ui/card-hover-effect";
 import ExploreButton from "../components/button/ExploreButton"
+// import { FloatingNav } from "../components/ui/floating-navbar"; // ganti path sesuai lokasimu
+
 
 export default function Home() {
   const items = [
     {
-      title: "Card 1",
-      description: "This is card 1.",
-      link: "/",
+      title: "About Me",
+      description: "Click to see about me",
+      link: "http://localhost:3000/pages/about/",
     },
     {
-      title: "Card 2",
-      description: "This is card 2.",
-      link: "/",
+      title: "Project",
+      description: "Click to see the project I've done",
+      link: "http://localhost:3000/pages/project/",
     },
     {
-      title: "Card 3",
-      description: "This is card 3.",
-      link: "/",
+      title: "Resume",
+      description: "Click to see my resume",
+      link: "http://localhost:3000/pages/resume/",
     },
   ];
+  
 
   return (
     <div className="min-h-screen bg-black text-white space-y-16 p-8">
@@ -33,7 +36,7 @@ export default function Home() {
       </div>
 
       <section>
-        <h2 className="text-3xl font-bold mb-6 text-center">Topik Pembelajaran</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Portofolio</h2>
         <HoverEffect items={items} />
       </section>
     </div>

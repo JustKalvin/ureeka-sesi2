@@ -4,16 +4,10 @@ import styled from 'styled-components';
 import { useRouter } from 'next/navigation';
 
 const Button: React.FC = () => {
-  const router = useRouter()
-
-  const handleExplore = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    router.push("/pages/explore")
-  } 
-
   return (
     <StyledWrapper>
-      <button onClick={(e) => handleExplore(e)} className="button">
-        <span>Explore</span>
+      <button className="button">
+        <span>Welcome</span>
       </button>
     </StyledWrapper>
   );
