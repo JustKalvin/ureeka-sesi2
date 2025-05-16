@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import resume from '../../../images/resume.png';
 import { ContainerScroll } from '../../../components/ui/container-scroll-animation';
