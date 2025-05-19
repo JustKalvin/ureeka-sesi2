@@ -17,19 +17,19 @@ const geistMono = Geist_Mono({
 const navItems = [
   {
     name: "Home",
-    link: "http://localhost:3000/"
+    link: "https://ureeka-sesi2-k1vsmsi7z-justkalvins-projects.vercel.app"
   },
   {
     name: "About",
-    link: "http://localhost:3000/pages/about/"
+    link: "https://ureeka-sesi2-k1vsmsi7z-justkalvins-projects.vercel.app/pages/about/"
   },
   {
     name: "Project",
-    link: "http://localhost:3000/pages/project/"
+    link: "https://ureeka-sesi2-k1vsmsi7z-justkalvins-projects.vercel.app/pages/project/"
   },
   {
     name: "Resume",
-    link: "http://localhost:3000/pages/resume/"
+    link: "https://ureeka-sesi2-k1vsmsi7z-justkalvins-projects.vercel.app/pages/resume/"
   },
 ];
 
