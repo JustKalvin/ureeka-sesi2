@@ -10,17 +10,17 @@ export default function Home() {
     {
       title: "About Me",
       description: "Click to see about me",
-      link: "http://localhost:3000/pages/about/",
+      link: "https://ureeka-sesi2.vercel.app/pages/about/",
     },
     {
       title: "Project",
       description: "Click to see the project I've done",
-      link: "http://localhost:3000/pages/project/",
+      link: "https://ureeka-sesi2.vercel.app/pages/project/",
     },
     {
       title: "Resume",
       description: "Click to see my resume",
-      link: "http://localhost:3000/pages/resume/",
+      link: "https://ureeka-sesi2.vercel.app/pages/resume/",
     },
   ];
   
