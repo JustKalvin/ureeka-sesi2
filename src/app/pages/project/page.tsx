@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Cards from "../../../components/cards/ProjectCards"
 import {Meteors} from "../../../components/ui/meteors"
 
