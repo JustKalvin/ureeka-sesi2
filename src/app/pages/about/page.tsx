@@ -78,7 +78,7 @@ const about = () => {
       ))}
     </motion.h2>
       <p className="mt-2 text-gray-600 dark:text-black-300 max-w-xl mx-auto">
-        I'm currently pursuing my studies at <strong>Bina Nusantara University</strong> with a passion for technology, creativity, and innovation. I love building projects that make a difference and constantly strive to grow as a developer and designer.
+        I&apos;m currently pursuing my studies at <strong>Bina Nusantara University</strong> with a passion for technology, creativity, and innovation. I love building projects that make a difference and constantly strive to grow as a developer and designer.
       </p>
     </div>
 

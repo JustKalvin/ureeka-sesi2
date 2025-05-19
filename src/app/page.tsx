@@ -1,6 +1,6 @@
 "use client";
 import Spline from "@splinetool/react-spline";
-import { Card, CardTitle, CardDescription, HoverEffect } from "../components/ui/card-hover-effect";
+import {HoverEffect } from "../components/ui/card-hover-effect";
 import ExploreButton from "../components/button/ExploreButton"
 // import { FloatingNav } from "../components/ui/floating-navbar"; // ganti path sesuai lokasimu
 
