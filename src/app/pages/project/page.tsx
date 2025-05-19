@@ -1,5 +1,5 @@
 "use client"
-import ProjectCards from "../../../components/cards/ProjectCards"
+import Cards from "../../../components/cards/ProjectCards"
 import {Meteors} from "../../../components/ui/meteors"
 
 const project = () => {
@@ -7,9 +7,9 @@ const project = () => {
   return(
     <div style={{height : "1000px"}}> 
       <div className="flex justify-center items-center">
-        <ProjectCards texts="Biomedical NER + Feature Extraction" href="https://compbio-8n8zx3xfw5dvye36owcgzw.streamlit.app/"/>
-        <ProjectCards texts="Stock Analysis PintarSaham" href="https://stock-analysis-pintarsaham-aj5644turzjjrfornmcnv8.streamlit.app/"/>
-        <ProjectCards texts="Customer Support Chatbot" href="https://customer-support-2-bmw2q4thx442oiyeixyyta.streamlit.app/"/>
+        <Cards texts="Biomedical NER + Feature Extraction" href="https://compbio-8n8zx3xfw5dvye36owcgzw.streamlit.app/"/>
+        <Cards texts="Stock Analysis PintarSaham" href="https://stock-analysis-pintarsaham-aj5644turzjjrfornmcnv8.streamlit.app/"/>
+        <Cards texts="Customer Support Chatbot" href="https://customer-support-2-bmw2q4thx442oiyeixyyta.streamlit.app/"/>
       </div>
       <div className="flex justify-center items-center my-20">
         <div className="relative w-full max-w-xl flex justify-center items-center">

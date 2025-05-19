@@ -9,11 +9,13 @@ const Card3D: React.FC = () => {
     <StyledWrapper>
       <div className="cards">
         <figure className="card">
-          <Image
-            src={resume.src}
-            alt="3D Hover"
-            className="card_img"
-          />
+        <Image
+          src={resume.src}
+          alt="3D Hover"
+          className="card_img"
+          width={400} // sesuaikan dengan ukuran CSS
+          height={500}
+        />
         </figure>
       </div>
     </StyledWrapper>
