@@ -2,13 +2,14 @@
 import React from "react";
 import styled from "styled-components";
 import resume from "../../images/resume.png"
+import Image from 'next/image';
 
 const Card3D: React.FC = () => {
   return (
     <StyledWrapper>
       <div className="cards">
         <figure className="card">
-          <img
+          <Image
             src={resume.src}
             alt="3D Hover"
             className="card_img"

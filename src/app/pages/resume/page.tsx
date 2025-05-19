@@ -1,7 +1,7 @@
 "use client"
-import Image from 'next/image';
-import resume from '../../../images/resume.png';
-import { ContainerScroll } from '../../../components/ui/container-scroll-animation';
+// import Image from 'next/image';
+// import resume from '../../../images/resume.png';
+// import { ContainerScroll } from '../../../components/ui/container-scroll-animation';
 import Card3D from "../../../components/cards/Card3D"
 import {SparklesCore} from "../../../components/ui/sparkles"
 
